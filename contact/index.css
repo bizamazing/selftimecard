@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.answer {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.textarea {
+    margin-bottom: 2em;
+}
+
+.content {
+    width: 100%;
+}
+
+.btnarea {
+    width: 100%;
+    padding: 10% 30%;
+}
+
+.btntxt {
+    padding: 5%;
+    text-align: center;
+    background-color: #cc7e00;
+}
+
+/**^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+** スマホ用
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^**/
+@media screen and (max-width:480px){
+    .answer {
+        width: 100%;
+        margin: 5% 0;
+        border:solid 1px gray;
+    }
+
+    .btnarea {
+        width: 100%;
+        padding: 10% 0% 0% 0%;
+    }
+
+    .footerarea {
+        position: relative;
+        margin-top: 20%;
+    }
+    
+}

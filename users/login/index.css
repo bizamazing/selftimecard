@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.newregister {
+    width: 100%;
+    padding: 0 30%;
+    text-align: center;
+}
+
+.btnarea {
+    padding: 5% 30%;
+}

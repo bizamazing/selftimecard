@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.datearea {
+    width: 100%;
+    padding: 2.55%;
+    text-align: center;
+}
+
+.smalltext {
+    font-size: 0.6em;
+    margin-top: 1em;
+}
+
+.btnarea {
+    width: 100%;
+    padding: 10% 30%;
+}
+
+.btnsarea {
+    width: 50%;
+    padding: 2.5%;
+}
+
+.btntxt {
+    padding: 5%;
+    text-align: center;
+    background-color: #cc7e00;
+}
+
+.btnstxt {
+    padding: 15%;
+    text-align: center;
+    background-color: #cc7e00;
+    color: #222;
+    font-size: 1.2em;
+}
+
+.secondbtntxt {
+    padding: 15%;
+    text-align: center;
+    background-color: #00cc18;
+    color: #222;
+    font-size: 1.2em;
+}
+
+.datetext {
+    margin: 2% auto;
+}
+
+.histrory {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 0.8em;
+}
+
+/**^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+** スマホ用
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^**/
+@media screen and (max-width:480px){
+    .btnarea {
+        width: 100%;
+        padding: 25% 10%;
+    }
+    
+    .btntxt {
+        padding: 5%;
+        text-align: center;
+        background-color: #cc7e00;
+    }
+
+    .btnsarea {
+        width: 50%;
+        padding: 10% 1%;
+    }
+
+    .btnstxt {
+        padding: 20%;
+        font-size: 1em;
+    }
+    
+    .secondbtntxt {
+        padding: 20%;
+        font-size: 1em;
+    }
+
+}

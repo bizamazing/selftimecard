@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+.footerarea {
+    position: relative;
+}
+
+.inputtitle {
+    margin: 2% auto;
+}
+
+#emails {
+    color: #222;
+}
+
+.inputarea {
+    font-size: 1em;
+    margin: 0 0 0 10%;
+    width: 70%;
+}
+
+.plustext {
+    padding-left: 10%;
+    margin: 2% auto;
+    font-size: 0.7em;
+}
+
+.discribe {
+    padding-left: 5%;
+}
+
+.textarea {
+    width: 100%;
+    padding: 5% 0 2% 10%;
+}
+
+/**^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+** スマホ用
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^**/
+@media screen and (max-width:480px){
+    .footerarea {
+        margin-top: 20%;
+		height: 100px;
+    }
+
+    .inputtitle {
+        margin: 5% auto;
+    }
+
+    .inputarea {
+        font-size: 1em;
+        width: 80%;
+        margin: 0;
+    }
+
+    .plustext {
+        padding-left: 0%;
+        margin: 2% auto;
+        font-size: 0.7em;
+    }
+
+    .textarea {
+        width: 100%;
+        padding: 5% 0 2% 0%;
+    }
+
+}
+
+@media screen and (max-width:350px){
+}
