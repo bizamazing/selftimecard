@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.selected {
+    margin: 0 0 0 5%;
+    height: 40px;
+    width: 20%;
+}
+
+.datearea {
+    width: 100%;
+    -webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.btnarea {
+    width: 20%;
+}
+
+.btntxt {
+    text-align: center;
+    background-color: #cc7e00;
+    color: #fcfcfc;
+    font-weight: bold;
+    margin-left: 10%;
+    width: 100%;
+    padding: 5%;
+}
+
+.describearea {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.txt {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.tabled {
+    width: 100%;
+    margin: 5% 0;
+}
+
+th {
+    border: solid 1px gray;
+    height: 50px;
+    padding: 10px 0;
+}
+
+/**^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+** スマホ用
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^**/
+@media screen and (max-width:480px){
+    .main {
+        padding: 10% 2% 0 2%;
+    }
+
+    .selected {
+        width: 30%;
+        border:solid 0.5px #343C49;
+    }
+
+    .btntxt {
+        margin-left: 20%;
+        padding: 20%;
+    }
+
+    .sp {
+        display: none;
+    }
+
+    .footerarea {
+        margin-top: 20%;
+       padding: 5% 0;
+    }
+        
+}
+
+@media screen and (max-width:350px){
+    .selected {
+        width: 25%;
+        border:solid 0.5px #343C49;
+    }
+
+    .btntxt {
+        margin-left: 20%;
+        padding: 20% 15%;
+    }   
+}

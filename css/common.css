@@ -1,0 +1,132 @@
+@charset "utf-8";
+html {
+    -webkit-overflow-scrolling: touch;
+}
+
+body{
+	color: #222;
+	font-size: 1.2rem;
+	font-family: Arial, "YuGothic Medium","Yu Gothic Medium","游ゴシック Medium","游ゴシック体 Medium",YuGothic,"Yu Gothic","游ゴシック","游ゴシック体","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-feature-settings : "palt";
+    -moz-osx-font-smoothing: grayscale;
+	background-color:#fcfcfc;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ヘッダー */
+.headerarea {
+	width: 100%;
+	background-color: #343C49;
+	height: 50px;
+	text-align: center;
+}
+
+.logo {
+	height: 100%;
+}
+
+/* メイン */
+.main {
+	padding: 3% 10% 0 10%;
+}
+
+.title {
+	font-size: 1.5em;
+	border-bottom:solid 3px #343C49;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.mustitem {
+	color: #ed514e;
+	font-size: 0.8em;
+}
+
+
+
+/* フッター */
+.footerarea {
+	width: 100%;
+	background-color: #343C49;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;          
+  	-ms-flex-wrap    : wrap;
+  	flex-wrap        : wrap;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+/* flex */
+.flexarea {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+}
+
+.footertext {
+	color: #fcfcfc;
+	font-size: 0.8em;
+}
+
+/**^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+** スマホ用
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^**/
+@media screen and (max-width:480px){
+	::placeholder {
+		font-size: 1em;
+	}
+
+	input {
+		text-indent: 0.5em;
+		font-size: 1em;
+	}
+
+	.headerarea {
+		height: 10%;
+	}
+
+	.main {
+		padding: 10%;
+	}
+
+	.footerarea {
+		height: 15%;
+		padding-bottom: 5%;
+		position: relative;
+	}
+
+	.footerarea div {
+		width: 50%;
+		padding: 0 5%;
+	}
+}
+
+@media screen and (max-width:350px){
+	.headerarea {
+		height: 50px;
+	}
+
+	.main {
+		padding: 5%;
+	}
+
+	
+}
+
